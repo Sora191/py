@@ -10,3 +10,10 @@ def readInt():
             print val, 'is not an integer'
 
 readInt()
+
+
+Enter an integer: abc
+abc is not an integer
+Enter an integer: 1.91
+1.91 is not an integer
+Enter an integer: 5
