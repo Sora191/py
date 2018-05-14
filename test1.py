@@ -1,15 +1,14 @@
 #test1.py
 
 numSuccesses = 191
-numFailures = 191
+numFailures = 0
 
-try:
-    successFailureRatio = numSuccesses/float(numFailures)
-    print 'The success/failure ratio is ', successFailureRatio
-except ZeroDivisionError:
-    print 'No filures so the success/failure ratio is undefined.'
+succesFailureRatio = numSuccesses/float(numFailures)
+print 'The success/failure ratio is', succesFailureRatio
 print 'Now here'
 
 
-The success/failure ratio is  1.0
-Now here
+Traceback (most recent call last):
+  File "D:\pleiades\workspace\rinkou\src\test.py", line 6, in <module>
+    succesFailureRatio = numSuccesses/float(numFailures)
+ZeroDivisionError: float division by zero
