@@ -16,5 +16,5 @@ Enter an integer: abc
 abc is not an integer
 Enter an integer: 1.91
 1.91 is not an integer
-Enter an integer: 10
-The square of the number you entered is  100
+Enter an integer: 5
+The square of the number you entered is  25
