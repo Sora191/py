@@ -13,13 +13,14 @@ def getRatios(vect1, vect2):
 
 
 
+try:
+    print getRatios([1.0,2.0,7.0,6.0], [1.0,2.0,0.0,3.0])
+    print getRatios([],[])
+    print getRatios([1.0,2.0], [3.0])
+except ValueError, msg:
+    print msg
 
 
-v1 = [0,1,2,3]
-v2 = [1,0,1,0]
-
-print 'ratios =', getRatios(v1, v2)
-
-
-
-ratios = [0.0, nan, 2.0, nan]
+[1.0, 1.0, nan, 2.0]
+[]
+getRatios called with bad arguments
