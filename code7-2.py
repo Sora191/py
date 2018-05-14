@@ -1,6 +1,8 @@
 #code7-2.py
 
 def getRatios(vect1, vect2):
+    """vect1とvect2を同じ長さのリストとする
+       vect1[i]とvect2[i]を意味する値からなるリストを返す"""
     ratios = []
     if len(vect1) != len(vect2):
         raise ValueError('getRatios called with bad arguments')
@@ -15,8 +17,6 @@ def getRatios(vect1, vect2):
         else:
             ratios.append(vect1Elem/vect2Elem)
     return ratios
-
-
 
 try:
     print getRatios([1.0,2.0,7.0,6.0], [1.0,2.0,0.0,3.0])
